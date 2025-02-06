@@ -1,0 +1,29 @@
+id: Identificação única do pedido de empréstimo.
+
+grade: Classificação do empréstimo atribuída pela LC.
+
+annual_inc: O rendimento anual auto-relatado fornecido pelo mutuário durante o registo.
+
+short_emp: 1 quando empregado por 1 ano ou menos.
+
+emp_length_num: Duração do emprego em anos. Valores possíveis estão entre 0 e 10, onde 0 significa menos de um ano e 10 significa dez ou mais anos.
+
+home_ownership: Tipo de posse da casa.
+
+dti: Rácio Dívida-Rendimento: Um rácio calculado usando os pagamentos mensais totais da dívida do mutuário nas obrigações totais da dívida, excluindo a hipoteca e o empréstimo solicitado à LC, dividido pelo rendimento mensal auto-relatado pelo mutuário.
+
+purpose: Uma categoria fornecida pelo mutuário para o pedido de empréstimo.
+
+term: O número de pagamentos do empréstimo. Os valores são em meses e podem ser 36 ou 60.
+
+last_delinq_none: 1 quando o mutuário teve pelo menos um evento de delinquência.
+
+last_major_derog_none: 1 quando o mutuário teve pelo menos 90 dias de classificação negativa.
+
+revol_util: Taxa de utilização da linha de crédito rotativo, ou o montante de crédito que o mutuário está a utilizar em relação a todo o crédito rotativo disponível.
+
+total_rec_late_fee: Taxas de atraso recebidas até à data.
+
+od_ratio: Rácio de descoberto.
+
+bad_loan: 1 quando um empréstimo não foi pago.
